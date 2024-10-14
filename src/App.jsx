@@ -1,18 +1,18 @@
-
-import './App.css'
-import Footer from './components/Footer'
-import Hero from './components/HeroSection'
+import "./App.css";
+import Footer from "./components/Footer";
+import Hero from "./components/HeroSection";
+import TaskBoard from "./components/TaskBoard";
 
 function App() {
-
   return (
     <>
-    <div>
-      <Hero/>
-    </div>
-    <Footer/>
+      <Hero />
+      <div>
+        <TaskBoard />
+      </div>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
